@@ -10,7 +10,7 @@ const codes = [
   "b",
   "a"
 ];
-
+var i=0
 function init() {
   // your code here
   console.log("hello")
@@ -20,7 +20,6 @@ function init() {
 
 function checkcode(e){
   console.log(e.key)
-  var i=0
   if (e.key == codes[i]){
     i++
     console.log(i)
