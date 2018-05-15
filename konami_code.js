@@ -19,5 +19,5 @@ function init() {
 }
 
 function checkcode(e){
-  console.log(e.)
+  console.log(e.key)
 }
