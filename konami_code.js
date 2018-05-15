@@ -23,6 +23,7 @@ function checkcode(e){
   var i=0
   if (e.key == codes[i]){
     i++
+    console.log(i)
   }
   else{
     i=0
