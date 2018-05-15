@@ -28,6 +28,6 @@ function checkcode(e){
     i=0
   }
   if (i==10){
-    return 
+    alert("konami code engaged.... lets party baby") 
   }
 }
