@@ -20,4 +20,14 @@ function init() {
 
 function checkcode(e){
   console.log(e.key)
+  var i=0
+  if (e.key == codes[i]){
+    i++
+  }
+  else{
+    i=0
+  }
+  if (i==10){
+    return 
+  }
 }
