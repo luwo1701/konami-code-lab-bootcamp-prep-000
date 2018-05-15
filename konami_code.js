@@ -13,4 +13,11 @@ const codes = [
 
 function init() {
   // your code here
+  console.log("hello")
+  document.querySelector("body").addEventListener("keydown", function(e) {return checkcode(e)})
+  console.log()
+}
+
+function checkcode(e){
+  console.log(e.)
 }
